@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(86,77,241);
+    background: radial-gradient(circle, rgba(169,40,68,1) 0%, rgba(92,50,62,1) 50%, rgba(5,1,40,1) 100%); 
+}
+
+a {
+    color: white !important;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px !important;
+}
+
+a:hover {
+    background-color: #E0E153;
+    color: #5C323E !important;
+    border-radius: 8px 0px 8px 0px;
+}
+
+.dropdown-menu {
+    background-color: #E0E153;
+    color: #5C323E !important;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.centrarV {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px !important;
+    color: white;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px !important;
+    color: yellowgreen;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: yellowgreen;
+}
+
+.caja {
+    padding: 1em;
+}
+
+p {
+    text-align: end;
+    color: antiquewhite;
+}
+
+/* estas son las propiedades del video que va aestar detras de la imagen y el texto del header */
+video {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    mix-blend-mode: overlay;
+    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
+    mask-image: linear-gradient(to top, transparent 5%, black 50%);
+}

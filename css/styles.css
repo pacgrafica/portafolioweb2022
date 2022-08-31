@@ -15,20 +15,46 @@ a {
     font-size: 20px !important;
 }
 
+.submenu {
+    color: #E0E153 !important;
+}
+
 a:hover {
-    background-color: #E0E153;
-    color: #5C323E !important;
+    background-color: #220c21;
+    color: #E0E153 !important;
     border-radius: 8px 0px 8px 0px;
 }
 
+.btn-outline-success:hover {
+    width: 10rem;
+    background-image: url("../images/whatsappLogoWhite.png");
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: 3px;
+    color: white !important;
+    text-align: end;
+}
+
 .dropdown-menu {
-    background-color: #E0E153;
-    color: #5C323E !important;
+    background-color: #220c21;
+    color: #E0E153 !important;
+}
+
+.dropdown-item:hover {
+    background-color:#A92844;
+}
+
+.navbar-toggler {
+    color: #E0E153 !important;
 }
 
 .centrar {
     display: flex;
     justify-content: center;
+}
+
+.super {
+    font-size: 10vw !important;
 }
 
 .centrarV {
@@ -48,13 +74,13 @@ h1 {
 
 h2 {
     font-family: 'Pacifico', cursive;
-    font-size: 30px !important;
-    color: yellowgreen;
+    font-size: 3rem !important;
+    color: #C0D23E;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    color: yellowgreen;
+    color: #C0D23E;
 }
 
 .caja {

@@ -83,7 +83,7 @@ h3 {
     color: #C0D23E;
 }
 
-.caja {
+.caja2 {
     padding: 1em;
 }
 
@@ -103,4 +103,86 @@ video {
     mix-blend-mode: overlay;
     -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
     mask-image: linear-gradient(to top, transparent 5%, black 50%);
+}
+
+.centrar2 {
+    position: relative;
+    left: 4rem;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 30s;
+}
+
+.caja {
+    width: 300px;
+    height: 120px;
+    position: absolute;
+}
+
+.uno {
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    animation-delay: 0s;
+    animation-duration: 5s !important;
+}
+
+.dos {
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+    animation-delay: .2s;
+    animation-duration: 8s !important;
+}
+
+.tres {
+    position: absolute;
+    width: 300px;
+    z-index: 3;
+    animation-delay: .3s;
+    animation-duration: 11s !important;
+}
+
+.cuatro {
+    position: absolute;
+    width: 300px;
+    z-index: 4;
+    animation-delay: .4s;
+    animation-duration: 3s !important;
+}
+
+.cinco {
+    position: absolute;
+    width: 300px;
+    z-index: 5;
+    animation-delay: .5s;
+    animation-duration: 5s !important;
+}
+
+.seis {
+    position: absolute;
+    width: 300px;
+    z-index: 6;
+    animation-delay: .6s;
+    animation-duration: 2s !important;
+}
+
+.animaBoton {
+    position: absolute;
+    width: 20rem;
+    z-index: 7;
+    animation-delay: 5s;
+    animation-duration: 1s !important;
+}
+
+.verde {
+    background-color: #c0d23e;
+    height: 20rem;
+}
+
+.morado {
+    background-color: #5c323e;
 }

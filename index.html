@@ -21,9 +21,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
   </head>
   <body>
     <div class="container">
+
+      <!-- Modal -->
+      <div class="modal show fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="centrar2">
+                        <div class="caja">
+                            <img src="images/j.png" class="uno animate__animated animate__fadeInDown"/>
+                            <img src="images/L.png" class="dos animate__animated animate__fadeInDown"/>
+                            <img src="images/o.png" class="tres animate__animated animate__fadeIn"/>
+                            <img src="images/pez.png" class="cuatro animate__animated animate__zoomInRight"/>
+                            <img src="images/code.png" class="cinco animate__animated animate__rotateIn">
+                            <img src="images/designer.png" class="seis animate__animated animate__jackInTheBox"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="display-6 text-muted text-center m-4 animate__animated animate__fadeInUp animate__delay-3s">Bienvenido a mi sitio web</h1>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn text-light animate__animated animate__fadeInUp animate__delay-4s" data-bs-dismiss="modal" style="background-color: #5c323e;">Iniciar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
 
       <nav class="navbar navbar-expand-lg navbar-dark" id="arriba">
         <div class="container-fluid">
@@ -80,7 +117,7 @@
         <div class="row">
             <div class="col-md-6">
               <div class="centrar">
-                <img class="animate__animated animate__pulse animate__infinite animate__slower" src="images/juan1.png" width="100%" alt="Diseñador web">
+                <img class="animate__animated animate__pulse animate__infinite animate__slower" src="images/designerJ.png" width="70%" alt="Diseñador web">
               </div>
             </div>
             <div class="col-md-6">
@@ -98,7 +135,7 @@
 
         <div class="row">
           <div class="col-md-12">
-            <div class="caja">
+            <div class="caja2">
               <h3>No hay genios individuales si no sociedades enteras y en marcha que potencian a los más inteligentes e imaginativos para que alimenten esa marcha</h3>
               <p>Julio Verne</p>
             </div>
@@ -139,17 +176,19 @@
             </div>
           </div>
         </div>
+        <hr class="m-5">
+
         <div class="container">
           <div class="row">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #a92844;">
                     Accordion Item #1
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
+                <div id="collapseOne" class="accordion-collapse collapse show bg-transparent text-light" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
+                  <div class="accordion-body" style="background-color: #a92844;">
                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
                 </div>
@@ -308,6 +347,11 @@
 
 
     </div>
+    <script type="text/javascript">
+      $(window).on('load', function () {
+          $('#myModal').modal('show');
+      });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script>
       const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')

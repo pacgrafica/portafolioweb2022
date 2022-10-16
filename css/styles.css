@@ -9,10 +9,55 @@ body {
     background: radial-gradient(circle, rgba(169,40,68,1) 0%, rgba(92,50,62,1) 50%, rgba(5,1,40,1) 100%); 
 }
 
+/*Clases alteradas Bootstrap*/
+.btn-primary {
+    background-color: #c0d23e;
+    border-color: #E0E153;
+}
+
+.btn-primary:hover {
+    background-color: #E0E153;
+    border-color: #c0d23e;
+}
+
+.btn-secondary {
+    background-color: #5c323e;
+    color: antiquewhite !important;
+    border-color: #5c323e;
+}
+
+.btn-secondary:hover {
+    background-color: #A92844;
+    color: #A92844;
+    border-color: #5c323e;
+}
+
+.btn-outline-secondary {
+    border-color: #A92844;
+    color: #A92844;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #A92844;
+    color: antiquewhite !important;
+    border-color: antiquewhite;
+}
+
+.active {
+    background-color: antiquewhite !important;
+    border-color: rgb(241, 201, 149) !important;
+    color: #220c21 !important;
+}
+
+.active2 {
+    color: #E0E153 !important;
+}
+
 a {
     color: white !important;
     font-family: 'Pacifico', cursive;
     font-size: 20px !important;
+    border-radius: 8px 0px 8px 0px !important;
 }
 
 .submenu {
@@ -21,7 +66,7 @@ a {
 
 a:hover {
     background-color: #220c21;
-    color: #E0E153 !important;
+    
     border-radius: 8px 0px 8px 0px;
 }
 
@@ -186,3 +231,44 @@ video {
 .morado {
     background-color: #5c323e;
 }
+
+/* ---- Prueba isotope plugin---- */
+
+
+
+.portafolio-menu {
+    text-align: center;
+}
+.portafolio-menu ul li {
+    display: inline-block;
+    margin: 1px;
+    list-style: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.portafolio-menu ul li:hover {
+    color: white;
+}
+
+.portafolio-item {
+    width: 100%;
+}
+.portafolio-item .item {
+    width: 303px;
+    float: left;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.img {
+    width: 100%;
+}
+
+li.active {
+    background: #F07814;
+    color: white;
+}
+
+

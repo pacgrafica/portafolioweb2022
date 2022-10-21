@@ -271,10 +271,8 @@ video {
     width: 100%;
 }
 .portafolio-item .item {
-    width: 303px;
-    float: left;
-    margin-bottom: 5px;
-    padding: 15px;
+    width: 310px;
+    padding: 10px;
 }
 .img {
     width: 100%;
@@ -283,4 +281,10 @@ video {
 li.active {
     background: #F07814;
     color: white;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .sticky-top {
+        position: inherit;
+    }
 }

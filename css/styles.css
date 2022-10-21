@@ -9,10 +9,61 @@ body {
     background: radial-gradient(circle, rgba(169,40,68,1) 0%, rgba(92,50,62,1) 50%, rgba(5,1,40,1) 100%); 
 }
 
+/*Clases alteradas Bootstrap*/
+.btn-primary {
+    background-color: #c0d23e;
+    border-color: #E0E153;
+}
+
+.btn-primary:hover {
+    background-color: #E0E153;
+    border-color: #c0d23e;
+}
+
+.btn-secondary {
+    background-color: #5c323e;
+    color: antiquewhite !important;
+    border-color: #5c323e;
+}
+
+.btn-secondary:hover {
+    background-color: #A92844;
+    color: #A92844;
+    border-color: #5c323e;
+}
+
+.btn-outline-secondary {
+    border-color: #A92844;
+    color: #A92844;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #A92844;
+    color: antiquewhite !important;
+    border-color: antiquewhite;
+}
+
+.active {
+    background-color: antiquewhite !important;
+    border-color: rgb(241, 201, 149) !important;
+    color: #220c21 !important;
+}
+
+.active2 {
+    color: #E0E153 !important;
+}
+
+.btn-outline-light:hover {
+    background-color: #A92844;
+    color: #E0E153;
+}
+
+
 a {
     color: white !important;
     font-family: 'Pacifico', cursive;
     font-size: 20px !important;
+    border-radius: 8px 0px 8px 0px !important;
 }
 
 .submenu {
@@ -21,7 +72,7 @@ a {
 
 a:hover {
     background-color: #220c21;
-    color: #E0E153 !important;
+    
     border-radius: 8px 0px 8px 0px;
 }
 
@@ -83,7 +134,7 @@ h3 {
     color: #C0D23E;
 }
 
-.caja {
+.caja2 {
     padding: 1em;
 }
 
@@ -92,6 +143,14 @@ p {
     color: antiquewhite;
 }
 
+/*estas son las clases para alteral modal de carga de index.html*/
+.modal-content {
+    display: none;
+}
+
+.modal-content:visited {
+    display: none;
+}
 /* estas son las propiedades del video que va aestar detras de la imagen y el texto del header */
 video {
     position: absolute;
@@ -103,4 +162,125 @@ video {
     mix-blend-mode: overlay;
     -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
     mask-image: linear-gradient(to top, transparent 5%, black 50%);
+}
+
+.centrar2 {
+    position: relative;
+    left: 4rem;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 30s;
+}
+
+.caja {
+    width: 300px;
+    height: 120px;
+    position: absolute;
+}
+
+.uno {
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    animation-delay: 0s;
+    animation-duration: 5s !important;
+}
+
+.dos {
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+    animation-delay: .2s;
+    animation-duration: 8s !important;
+}
+
+.tres {
+    position: absolute;
+    width: 300px;
+    z-index: 3;
+    animation-delay: .3s;
+    animation-duration: 11s !important;
+}
+
+.cuatro {
+    position: absolute;
+    width: 300px;
+    z-index: 4;
+    animation-delay: .4s;
+    animation-duration: 3s !important;
+}
+
+.cinco {
+    position: absolute;
+    width: 300px;
+    z-index: 5;
+    animation-delay: .5s;
+    animation-duration: 5s !important;
+}
+
+.seis {
+    position: absolute;
+    width: 300px;
+    z-index: 6;
+    animation-delay: .6s;
+    animation-duration: 2s !important;
+}
+
+.animaBoton {
+    position: absolute;
+    width: 20rem;
+    z-index: 7;
+    animation-delay: 5s;
+    animation-duration: 1s !important;
+}
+
+.verde {
+    background-color: #c0d23e;
+    height: 20rem;
+}
+
+.morado {
+    background-color: #5c323e;
+}
+
+/* ---- Prueba isotope plugin---- */
+
+
+
+.portafolio-menu {
+    text-align: center;
+}
+.portafolio-menu ul li {
+    display: inline-block;
+    margin: 1px;
+    list-style: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.portafolio-menu ul li:hover {
+    color: white;
+}
+
+.portafolio-item {
+    width: 100%;
+}
+.portafolio-item .item {
+    width: 303px;
+    float: left;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.img {
+    width: 100%;
+}
+
+li.active {
+    background: #F07814;
+    color: white;
 }

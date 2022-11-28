@@ -1,290 +1,328 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: rgb(86,77,241);
-    background: radial-gradient(circle, rgba(169,40,68,1) 0%, rgba(92,50,62,1) 50%, rgba(5,1,40,1) 100%); 
+  background: rgb(86, 77, 241);
+  background: radial-gradient(circle, rgb(169, 40, 68) 0%, rgb(92, 50, 62) 50%, rgb(5, 1, 40) 100%);
 }
 
 /*Clases alteradas Bootstrap*/
 .btn-primary {
-    background-color: #c0d23e;
-    border-color: #E0E153;
+  background-color: #c0d23e;
+  border-color: #E0E153;
 }
 
 .btn-primary:hover {
-    background-color: #E0E153;
-    border-color: #c0d23e;
+  background-color: #E0E153;
+  border-color: #c0d23e;
 }
 
 .btn-secondary {
-    background-color: #5c323e;
-    color: antiquewhite !important;
-    border-color: #5c323e;
+  background-color: #5c323e;
+  color: antiquewhite !important;
+  border-color: #5c323e;
 }
 
 .btn-secondary:hover {
-    background-color: #A92844;
-    color: #A92844;
-    border-color: #5c323e;
+  background-color: #A92844;
+  color: #A92844;
+  border-color: #5c323e;
 }
 
 .btn-outline-secondary {
-    border-color: #A92844;
-    color: #A92844;
+  border-color: #A92844;
+  color: #A92844;
 }
 
 .btn-outline-secondary:hover {
-    background-color: #A92844;
-    color: antiquewhite !important;
-    border-color: antiquewhite;
+  background-color: #A92844;
+  color: antiquewhite !important;
+  border-color: antiquewhite;
 }
 
 .active {
-    background-color: antiquewhite !important;
-    border-color: rgb(241, 201, 149) !important;
-    color: #220c21 !important;
+  background-color: antiquewhite !important;
+  border-color: rgb(241, 201, 149) !important;
+  color: #220c21 !important;
 }
 
 .active2 {
-    color: #E0E153 !important;
+  color: #E0E153 !important;
 }
 
 .btn-outline-light:hover {
-    background-color: #A92844;
-    color: #E0E153;
+  background-color: #A92844;
+  color: #E0E153;
 }
 
-
 a {
-    color: white !important;
-    font-family: 'Pacifico', cursive;
-    font-size: 20px !important;
-    border-radius: 8px 0px 8px 0px !important;
+  color: white !important;
+  font-family: "Pacifico", cursive;
+  font-size: 20px !important;
+  border-radius: 8px 0px 8px 0px !important;
 }
 
 .submenu {
-    color: #E0E153 !important;
+  color: #E0E153 !important;
 }
 
 a:hover {
-    background-color: #220c21;
-    
-    border-radius: 8px 0px 8px 0px;
+  background-color: #220c21;
+  border-radius: 8px 0px 8px 0px;
 }
 
 .btn-outline-success:hover {
-    width: 10rem;
-    background-image: url("../images/whatsappLogoWhite.png");
-    background-repeat: no-repeat;
-    background-size: 2rem;
-    background-position: 3px;
-    color: white !important;
-    text-align: end;
+  width: 10rem;
+  background-image: url("../images/whatsappLogoWhite.png");
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: 3px;
+  color: white !important;
+  text-align: end;
 }
 
 .dropdown-menu {
-    background-color: #220c21;
-    color: #E0E153 !important;
+  background-color: #220c21;
+  color: #E0E153 !important;
 }
 
 .dropdown-item:hover {
-    background-color:#A92844;
+  background-color: #A92844;
 }
 
 .navbar-toggler {
-    color: #E0E153 !important;
+  color: #E0E153 !important;
 }
 
 .centrar {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .super {
-    font-size: 10vw !important;
+  font-size: 10vw !important;
 }
 
 .centrarV {
-    display: flex;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
-    /* font-family: 'Pacifico', cursive; */
-    font-family: 'Paytone One', sans-serif;
-    font-size: 50px !important;
-    color: white;
+  /* font-family: 'Pacifico', cursive; */
+  font-family: "Paytone One", sans-serif;
+  font-size: 50px !important;
+  color: white;
 }
 
 h2 {
-    font-family: 'Pacifico', cursive;
-    font-size: 3rem !important;
-    color: #C0D23E;
+  font-family: "Pacifico", cursive;
+  font-size: 3rem !important;
+  color: #C0D23E;
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #C0D23E;
+  font-family: "Roboto", sans-serif;
+  color: #C0D23E;
 }
 
 .caja2 {
-    padding: 1em;
+  padding: 1em;
 }
 
 p {
-    text-align: end;
-    color: antiquewhite;
+  text-align: end;
+  color: antiquewhite;
 }
 
 /*estas son las clases para alteral modal de carga de index.html*/
 .modal-content {
-    display: none;
+  display: none;
 }
 
 .modal-content:visited {
-    display: none;
+  display: none;
 }
+
 /* estas son las propiedades del video que va aestar detras de la imagen y el texto del header */
 video {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    mix-blend-mode: overlay;
-    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
-    mask-image: linear-gradient(to top, transparent 5%, black 50%);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  mix-blend-mode: overlay;
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
+  mask-image: linear-gradient(to top, transparent 5%, black 50%);
 }
 
 .centrar2 {
-    position: relative;
-    left: 4rem;
-    width: 300px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 30s;
+  position: relative;
+  left: 4rem;
+  width: 300px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 30s;
 }
 
 .caja {
-    width: 300px;
-    height: 120px;
-    position: absolute;
+  width: 300px;
+  height: 120px;
+  position: absolute;
 }
 
 .uno {
-    position: absolute;
-    width: 300px;
-    z-index: 1;
-    animation-delay: 0s;
-    animation-duration: 5s !important;
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  animation-delay: 0s;
+  animation-duration: 5s !important;
 }
 
 .dos {
-    position: absolute;
-    width: 300px;
-    z-index: 2;
-    animation-delay: .2s;
-    animation-duration: 8s !important;
+  position: absolute;
+  width: 300px;
+  z-index: 2;
+  animation-delay: 0.2s;
+  animation-duration: 8s !important;
 }
 
 .tres {
-    position: absolute;
-    width: 300px;
-    z-index: 3;
-    animation-delay: .3s;
-    animation-duration: 11s !important;
+  position: absolute;
+  width: 300px;
+  z-index: 3;
+  animation-delay: 0.3s;
+  animation-duration: 11s !important;
 }
 
 .cuatro {
-    position: absolute;
-    width: 300px;
-    z-index: 4;
-    animation-delay: .4s;
-    animation-duration: 3s !important;
+  position: absolute;
+  width: 300px;
+  z-index: 4;
+  animation-delay: 0.4s;
+  animation-duration: 3s !important;
 }
 
 .cinco {
-    position: absolute;
-    width: 300px;
-    z-index: 5;
-    animation-delay: .5s;
-    animation-duration: 5s !important;
+  position: absolute;
+  width: 300px;
+  z-index: 5;
+  animation-delay: 0.5s;
+  animation-duration: 5s !important;
 }
 
 .seis {
-    position: absolute;
-    width: 300px;
-    z-index: 6;
-    animation-delay: .6s;
-    animation-duration: 2s !important;
+  position: absolute;
+  width: 300px;
+  z-index: 6;
+  animation-delay: 0.6s;
+  animation-duration: 2s !important;
 }
 
 .animaBoton {
-    position: absolute;
-    width: 20rem;
-    z-index: 7;
-    animation-delay: 5s;
-    animation-duration: 1s !important;
+  position: absolute;
+  width: 20rem;
+  z-index: 7;
+  animation-delay: 5s;
+  animation-duration: 1s !important;
 }
 
 .verde {
-    background-color: #c0d23e;
-    height: 20rem;
+  background-color: #c0d23e;
+  height: 20rem;
 }
 
 .morado {
-    background-color: #5c323e;
+  background-color: #5c323e;
 }
 
 /* ---- Prueba isotope plugin---- */
-
-
-
 .portafolio-menu {
-    text-align: center;
+  text-align: center;
 }
+
 .portafolio-menu ul li {
-    display: inline-block;
-    margin: 1px;
-    list-style: none;
-    padding: 10px 15px;
-    border-radius: 10px;
-    
-    cursor: pointer;
-    transition: all .5s ease;
+  display: inline-block;
+  margin: 1px;
+  list-style: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
+
 .portafolio-menu ul li:hover {
-    color: white;
+  color: white;
 }
 
 .portafolio-item {
-    width: 100%;
+  width: 100%;
 }
+
 .portafolio-item .item {
-    width: 310px;
-    padding: 10px;
+  width: 310px;
+  padding: 10px;
 }
+
 .img {
-    width: 100%;
+  width: 100%;
 }
 
 li.active {
-    background: #F07814;
-    color: white;
+  background: #F07814;
+  color: white;
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
-    .sticky-top {
-        position: inherit;
-    }
+  .sticky-top {
+    position: inherit;
+  }
 }
+.colorPrincipal {
+  color: #E0E153;
+}
+
+.containerS {
+  overflow: hidden;
+}
+.containerS .slider {
+  animation: slidein 30s linear infinite;
+  white-space: nowrap;
+}
+.containerS .slider .logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+}
+.containerS .slider .logos .fab {
+  width: 20%;
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

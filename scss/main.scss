@@ -314,10 +314,31 @@ li.active {
 .grid-container {
     display: grid;
     grid-template-columns: 70% 30%;
+    background-color: #C0D23E;
 }
 
 .grid-item {
     padding: 20px;
+}
+
+.grid-p {
+    display: grid !important;
+    grid-template-columns: 30% 30% 30% !important;
+}
+
+.grid-p-item {
+    background-color: #C0D23E !important;
+}
+
+.counter {
+    display: table-cell;
+    margin:1.5%;
+    font-size:50px;
+    background-color: #FF6F6F;
+    width:200px;
+    border-radius: 50%;
+    height:200px;
+    vertical-align: middle;
   }
   
   @keyframes slidein {

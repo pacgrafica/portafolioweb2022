@@ -282,14 +282,18 @@ li.active {
   color: white;
 }
 
-@media screen and (min-width: 100px) and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
   .sticky-top {
     position: inherit;
-  }  
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
   .fondoColor {
     background-color: #220c21;
   }
 }
+
 .colorPrincipal {
   color: #E0E153;
 }

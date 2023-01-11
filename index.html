@@ -1,526 +1,795 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Juan Francisco López - Portafolio Web</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Francisco López - Portafolio Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 
-    <!-- ESTA ES LA TIPOGRAFIA DE TITULOS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <!-- ESTA ES LA TIPOGRAFIA DE TITULOS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/4e458e8f90.js" crossorigin="anonymous"></script>
-    
-  </head>
-  <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-    <div class="container">
+  <script src="https://kit.fontawesome.com/4e458e8f90.js" crossorigin="anonymous"></script>
 
-      <!-- Modal -->
-      <div class="modal show fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+  <link rel="stylesheet" href="css/owltestimonio.css">
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <!-- <div class="modal-header">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Modal -->
+    <div class="modal show fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <!-- <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div> -->
-                <div class="modal-body">
-                    <div class="centrar2">
-                        <div class="caja">
-                            <img src="images/j.png" class="uno animate__animated animate__fadeInDown"/>
-                            <img src="images/L.png" class="dos animate__animated animate__fadeInDown"/>
-                            <img src="images/o.png" class="tres animate__animated animate__fadeIn"/>
-                            <img src="images/pez.png" class="cuatro animate__animated animate__zoomInRight"/>
-                            <img src="images/code.png" class="cinco animate__animated animate__rotateIn">
-                            <img src="images/designer.png" class="seis animate__animated animate__jackInTheBox"/>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h2 class="display-4 text-muted text-center m-4 animate__animated animate__fadeInUp animate__delay-3s">Bienvenido al sitio</h2>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn text-light animate__animated animate__fadeInUp animate__delay-4s" data-bs-dismiss="modal" style="background-color: #5c323e;">Iniciar</button>
-                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                </div>
+          <div class="modal-body">
+            <div class="centrar2">
+              <div class="caja">
+                <img src="images/j.png" class="uno animate__animated animate__fadeInDown" />
+                <img src="images/L.png" class="dos animate__animated animate__fadeInDown" />
+                <img src="images/o.png" class="tres animate__animated animate__fadeIn" />
+                <img src="images/pez.png" class="cuatro animate__animated animate__zoomInRight" />
+                <img src="images/code.png" class="cinco animate__animated animate__rotateIn">
+                <img src="images/designer.png" class="seis animate__animated animate__jackInTheBox" />
+              </div>
             </div>
+          </div>
+          <div>
+            <h2 class="display-4 text-muted text-center m-4 animate__animated animate__fadeInUp animate__delay-3s">
+              Bienvenido al sitio</h2>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn text-light animate__animated animate__fadeInUp animate__delay-4s"
+              data-bs-dismiss="modal" style="background-color: #5c323e;">Iniciar</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top fondoColor" id="arriba">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/jlopezLogo.png" alt="Juan Francisco López Diseñador Fullstack">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="quiensoy.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Quien soy
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="quiensoy.html">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Habilidades</a></li>
+                <li><a class="dropdown-item" href="#">Mi fuerte</a></li>
+                <li><a class="dropdown-item" href="#">Educación</a></li>
+                <li><a class="dropdown-item" href="#">Experiencia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="proyectos.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Proyectos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="proyectos.html">Multimedia</a></li>
+                <li><a class="dropdown-item " href="#">Imagen</a></li>
+                <li><a class="dropdown-item " href="#">Audio</a></li>
+                <li><a class="dropdown-item " href="#">Video</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="galeria.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Galería
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="galeria.html">Multimedia</a></li>
+                <li><a class="dropdown-item" href="#">Trabajos Recientes</a></li>
+                <li><a class="dropdown-item" href="#">Clientes</a></li>
+                <li><a class="dropdown-item" href="#">Experiencias</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="centrar">
+          <img class="animate__animated animate__pulse animate__infinite animate__slower" src="images/astronaut.png"
+            width="90%" alt="Diseñador web">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center centrarV">
+          <h1 class="super">Juan <span style="color: #E0E153; font-size: 8vw;">López</span></h1>
+          <h2>Diseñador Fullstack</h2>
+          <p class="lead">Portafolio de proyectos multimedia</p>
+          <a class="btn btn-outline-success" href="https://api.whatsapp.com/send?phone=573112503262&amp;text=Hola!%20Habla%20con%20Juan%20López%20¿como%20le%20puedo%20ayudar?" target="_blank">
+            Contactame
+          </a>
+        </div>
+      </div>
+      <!-- ACA MONTO MI VIDEO DE FONDO -->
+      <video src="video/galaxy.mp4" autoplay muted loop></video>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="caja2">
+          <h3 class="text-light">Les doy la bienvenida al sitio que presenta los proyectos mas importantes de mi carrera
+            como Diseñador Gráfico en una transición al Desarrollo de Software</h3>
 
         </div>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12" style="padding: 2rem;">
+        <h1 class="text-center">Servicios de Diseño y Desarrollo <span style="color: #E0E153;">Web</span></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Video</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Fotografía</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Multimedia</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Diseño 2D y 3D</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Animación</p>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Audiovisual</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Email marketing</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Ilustración</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Aplicaciones hibridas</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Redes sociales</p>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Material publicitario (P.O.P)</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Publicidad comercial</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Señalización</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Estampados</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Tarjetas de presentación</p>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Volantes</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Stands</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Promocionales</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Websites</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Intranets</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="container h-100 mt-4 mb-5">
+      <div class="row w-100 align-items-center">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom" data-bs-content="Enseño todo lo relacionado al diseño gráfico y desarrollo web">
+            <img src="images/educacion.svg" height="100rem" alt="educacion">
+            Educación
+          </button>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Construyo productos de comunicación para medios impresos y digitales, generando contenidos de valor al sector empresarial">
+            <img src="images/add.svg" height="100rem" alt="publicidad">
+            Publicidad
+          </button>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Poseo experiencia en los procesos de artefinalización de medios impresos, conocimiento  de componentes e insumos de la industria gráfica">
+            <img src="images/printing.svg" height="100rem" alt="impresion
+                ">
+            Impresión
+          </button>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Planifico procesos creativos que integren metologías agiles de diseño, fortaleciendo el producto o servicio, preparandolo para el mundo digital">
+            <img src="images/diseno.svg" height="100rem" alt="diseño">
+            Diseño
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Diseño web</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Interfaz de usuario (UI)</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Experiencia de usuario (UX)</p>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Git Sistema de control de versiones</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Frameworks</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Inteligencia Artificial (AI)</p>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">Responsive design</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">HTML, CSS, JavaScript</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">Adobe Creative Suite</p>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <ul>
+          <li class="text-white">
+            <p class="text-start">CMS</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">E-commerce</p>
+          </li>
+          <li class="text-white">
+            <p class="text-start">SEO</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <hr class="m-5">
+
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+          <img class="w-100" src="images/trabajo.jpg" height="" alt="enseñando">
+        </div>
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+          <h1 class="text-center">Enseñando Diseño para nuevas<span style="color: #E0E153;"> generaciones</span></h1>
+          <p>Soy capaz de gestionar equipos de trabajo colaborativo implementando metodologias agiles de desarrollo y
+            solución de proyectos</p>
+        </div>
+      </div>
+      <div class="containerS h-100 py-5">
+        <div class="row align-items-center h-100">
+          <div class="containerS rounded">
+            <h1 class="text-center">Sistemas con los que trabajo:</h1>
+            <div class="slider p-5">
+              <div class="logos">
+                <i class="fab fa-js fa-4x colorPrincipal"></i>
+                <i class="fab fa-git fa-4x colorPrincipal"></i>
+                <i class="fab fa-drupal fa-4x colorPrincipal"></i>
+                <i class="fab fa-android fa-4x colorPrincipal"></i>
+                <i class="fab fa-github fa-4x colorPrincipal"></i>
+              </div>
+              <div class="logos">
+                <i class="fab fa-facebook fa-4x colorPrincipal"></i>
+                <i class="fab fa-apple fa-4x colorPrincipal"></i>
+                <i class="fab fa-windows fa-4x colorPrincipal"></i>
+                <i class="fab fa-linux fa-4x colorPrincipal"></i>
+                <i class="fab fa-youtube fa-4x colorPrincipal"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <h1 class="text-center py-4">Trabajos<span style="color: #E0E153;"> recientes</span></h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                style="background-color: #a92844;">
+                <h3 class="text-light">Talentic<span style="color: #E0E153;"> - Sistema de información documental de
+                    contenidos digitales</span></h3>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show bg-transparent text-light"
+              aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="background-color: #a92844;">
+                <div class="grid-container">
+                  <div class="grid-item">
+                    <p>
+                      <strong>Semillero de investigación.</strong> Este proyecto lo llevamos construyendo desde el año
+                      2020, se trata del desarrollo de un sistema que permita registrar los proyectos finales de etapa
+                      lectiva de los programas de formación de contenidos digitales del Centro para la Industria de la
+                      Comunicación Gráfica, SENA Regional Distrito Capital
+                    </p>
+                    <figcaption class="d-flex justify-content-end">
+                      <p>ver el proyecto &nbsp;</p>
+                      <a href="https://www.talentic.com.co" target="_blank"> talentic.com.co</a>
+                    </figcaption>
+                  </div>
+                  <div class="grid-item">
+                    <img src="images/talentic.jpg" alt="talentic" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                style="background-color: #a92844;">
+                <h3 class="text-light">Superintendencia de servicios públicos domiciliarios<span
+                    style="color: #E0E153;"> - Diseño de portales web</span></h3>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="background-color: #a92844;">
+                <div class="row">
+                  <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <img src="images/pSuperInstitucional.jpg" width="70%" alt="portal superservicios institucional">
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <img src="images/pIntranetSuper.jpg" width="70%" alt="portal intranet superservicios">
+                  </div>
+                  <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <img src="images/pSuperservicios.jpg" width="50%" alt="portal superservicios">
+                  </div>
+                  <div class="col-6 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <p>
+                      <strong>Proceso de prototipado portales web.</strong> Este proyecto fue espectacular, consistio en
+                      trabajar en el proceso de prototipado en fases de diseño de creación de 3 sistemas de información;
+                      Portal institucional, Super servicios, Portal intranet, construi toda las fases de diseño desde el
+                      scketch, wireframe, mockup, prototipo una enorme responsabilidad que me permitio entender la
+                      integración de los componentes backend con los frontend
+                    </p>
+                    <figcaption class="d-flex justify-content-end">
+                      <p>ver los proyectos &nbsp;</p>
+                    </figcaption>
+                    <a href="https://sui.superservicios.gov.co" target="_blank"> sui.superservicios.gov.co</a>
+                    <a href="https://www.superservicios.gov.co" target="_blank"> superservicios.gov.co</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                style="background-color: #a92844;">
+                <h3 class="text-light">Union Country Cambios<span style="color: #E0E153;"> - Diseño de sitio web casa de
+                    cambios</span></h3>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="background-color: #a92844;">
+                <div class="row d-flex align-items-center">
+                  <div class="col-6">
+                    <p>
+                      <strong>Sitio web de Casa de cambios en Unicentro Bogotá.</strong> Este proyecto es un sistema de
+                      información que actualiza los precios de las monedas en tiemporeal atraves del frontend, usamos
+                      herramientas de maquetación y diseño adaptable
+                    </p>
+                    <figcaption class="d-flex justify-content-end">
+                      <p>ver el proyecto &nbsp;</p>
+                      <a href="https://www.ucountrycambios.co" target="_blank"> ucountrycambios.co</a>
+                    </figcaption>
+                  </div>
+                  <div class="col-6">
+                    <img src="images/pUnionCountry.jpg" alt="Union country cambios" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFourth">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth"
+                style="background-color: #a92844;">
+                <h3 class="text-light">Erator<span style="color: #E0E153;"> - Diseño de sitio web de Motores
+                    Usados</span></h3>
+              </button>
+            </h2>
+            <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingFourth"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="background-color: #a92844;">
+                <div class="grid-container">
+                  <div class="grid-item">
+                    <p>
+                      <strong>Sitio Web de Motores de segunda.</strong> Este sitio posee un sistema que permite
+                      registrar y almacenar los datos de los posibles clientes, para realizar un sistema embudo que
+                      permita el engagement con el cliente
+                    </p>
+                    <figcaption class="d-flex justify-content-end">
+                      <p>ver el proyecto &nbsp;</p>
+                      <a href="https://www.erator.co/" target="_blank"> erator.co</a>
+                    </figcaption>
+                  </div>
+                  <div class="grid-item">
+                    <img src="images/pErator.jpg" alt="Venta de motores usados" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding: 2rem;">
+      <div class="col-md-3" style="display: flex; justify-content: center;">
+        <img src="images/educacion.svg" alt="Educación" height="100rem">
+      </div>
+      <div class="col-md-9">
+        <p class="text-start">Para lograr estos proyectos trabajamos con equipos de trabajo comprometidos, cada uno de ellos especializados para incorporar y proponer en areas como; Marketing Digital, Modelos de Negocio, Diseño Gráfico, Diseño Web y App, Producción Multimedia, Bases de Datos, 3D, Animación, Edición, Sistemas de Información, Inteligencia Emocional, Inteligencia Artificial.</p>
+      </div>
+    </div>
+
+    <div class="row p-5">
+      <h1 class="text-center py-4">Habilidades<span style="color: #E0E153;"> blandas</span></h1>
+      <div class="col-md-3 p-4" style="display: flex; justify-content: center;">
+        <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+          data-bs-placement="bottom"
+          data-bs-content="Construyo redes de trabajo colaborativo a travez de sistemas remotos de control de versiones">
+          <img src="images/equipoScrum.png" alt="trabajo en equipo" width="100%">
+          Trabajo en equipo
+        </button>
+
+      </div>
+
+      <div class="col-md-3 p-4" style="display: flex; justify-content: center;">
+        <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+          data-bs-placement="bottom"
+          data-bs-content="5 años colaborando en diversos proyectos, desarrollos y aplicaciónes trabajando de la mano con el sector privado y público">
+          <img src="images/experiencia.png" alt="experiencia" width="100%">
+          Experiencia
+        </button>
+
+      </div>
+
+      <div class="col-md-3 p-4" style="display: flex; justify-content: center;">
+        <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+          data-bs-placement="bottom"
+          data-bs-content="Amateur maquetador Frontend con conocimientos en CSS, SASS, JS, React, Laravel, operación de bases de datos, modelos de entidad y relación, Apache, Mysql, PHP">
+          <img src="images/fullstack.png" alt="fullstack" width="100%">
+          Fullstack
+        </button>
+
+      </div>
+
+      <div class="col-md-3 p-4" style="display: flex; justify-content: center;">
+        <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover"
+          data-bs-placement="bottom" data-bs-content="Puede validar los testimonios">
+          <img src="images/garantia.png" alt="garantia" width="100%">
+          Garantia
+        </button>
+
+      </div>
+      <div class="col-3">
+        <h4 class="text-light text-center">Trabajo en Equipo</h4>
+      </div>
+      <div class="col-3">
+        <h4 class="text-light text-center">Experiencia</h4>
+      </div>
+      <div class="col-3">
+        <h4 class="text-light text-center">Fullstack</h4>
+      </div>
+      <div class="col-3">
+        <h4 class="text-light text-center">Garantia</h4>
+      </div>
+    </div>
+
     
 
-      <nav class="navbar navbar-expand-lg navbar-dark sticky-top fondoColor" id="arriba">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/jlopezLogo.png" alt="Juan Francisco López Diseñador Fullstack">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-white"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="quiensoy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Quien soy
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="quiensoy.html">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Habilidades</a></li>
-                  <li><a class="dropdown-item" href="#">Mi fuerte</a></li>
-                  <li><a class="dropdown-item" href="#">Educación</a></li>
-                  <li><a class="dropdown-item" href="#">Experiencia</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="proyectos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Proyectos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item " href="proyectos.html">Multimedia</a></li>
-                  <li><a class="dropdown-item " href="#">Imagen</a></li>
-                  <li><a class="dropdown-item " href="#">Audio</a></li>
-                  <li><a class="dropdown-item " href="#">Video</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="galeria.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Galería
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="galeria.html">Multimedia</a></li>
-                  <li><a class="dropdown-item" href="#">Trabajos Recientes</a></li>
-                  <li><a class="dropdown-item" href="#">Clientes</a></li>
-                  <li><a class="dropdown-item" href="#">Experiencias</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
+    <h1 class="text-center py-4">Testimonios</h1>
+    <div class="owl-carousel owl-theme mt-5">
+      <div class="owl-item" style="background-color: #5c323e;">
+        <div class="card" style="background-color: #a92844">
+          <div class="img-card">
+            <img
+              src="images/joseRueda.jpg"
+              alt="Jose Luis Rueda">
+          </div>
+          <div class="testimonial mt-4 mb-2">
+            <p class="text-start">
+            Talento inspirador, entendimiento  tecnológico y experiencia documentada, son posiblemente las razones por las cuales recomiendo desde hace más de 15 años a Juan Francisco. Lo invito a que lo compruebe usted mismo, para lograr una  conexión profesional a largo plazo.
+            </p>
+          </div>
+          <div class="name">
+            Jose Luis Rueda
+            <p class="text-dark">Publicista y Docente</p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item" style="background-color: #5c323e;">
+        <div class="card" style="background-color: #a92844">
+          <div class="img-card">
+            <img src="images/claudia.jpg"
+              alt="">
+          </div>
+          <div class="testimonial mt-4 mb-2">
+            <p class="text-start">Trabajar con Juan Francisco fue una gran experiencia. Su atención al detalle y su habilidad para capturar la esencia de nuestra marca en el diseño gráfico fue impresionante. Además, nuestro sitio web quedó increíblemente bien diseñado y fácil de navegar gracias a su habilidad como maquetador web.</p>            
+          </div>
+          <div class="name">
+            Claudia Forero
+            <p class="text-dark">Mercaderista</p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item" style="background-color: #5c323e;">
+        <div class="card" style="background-color: #a92844">
+          <div class="img-card">
+            <img
+              src="images/hernardo.jpg"
+              alt="">
+          </div>
+          <div class="testimonial mt-4 mb-2">
+            <p class="text-start">Siempre me sentí en buenas manos con Juan Francisco como diseñador gráfico y maquetador web. Su paciencia y disponibilidad para escuchar mis ideas y aportar sugerencias valiosas fue clave para el éxito del proyecto.</p>
+          </div>
+          <div class="name">
+            Hernando Ortiz
+            <p class="text-dark">Arquitecto de Software</p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item" style="background-color: #5c323e;">
+        <div class="card" style="background-color: #a92844">
+          <div class="img-card">
+            <img src="images/mauricioPerez.webp"
+              alt="">
+          </div>
+          <div class="testimonial mt-4 mb-2">
+            <p class="text-start">La creatividad y el profesionalismo de Juan López superaron con creces mis expectativas. Su trabajo como diseñador gráfico y maquetador web es de primera calidad y tuvo un gran impacto en el éxito de nuestra empresa en línea.</p>
+          </div>
+          <div class="name">
+            Mauricio Perez
+            <p class="text-dark">Emprendedor</p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item" style="background-color: #5c323e;">
+        <div class="card" style="background-color: #a92844">
+          <div class="img-card">
+            <img src="images/elizabethGomez.jpeg"
+              alt="">
+          </div>
+          <div class="testimonial mt-4 mb-2">
+            <p class="text-start">Como empresaria, siempre busco trabajar con profesionales confiables y talentosos. En Francisco, encontré ambos. Su habilidad para combinar estética y funcionalidad en el diseño gráfico y el diseño web fue impresionante, y su dedicación y atención al cliente es inigualable.</p>
+          </div>
+          <div class="name">
+            Elizabeth Gómez
+            <p class="text-dark">Emprendedora</p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item" style="background-color: #5c323e;">
+        <div class="card" style="background-color: #a92844">
+          <div class="img-card">
+            <img src="images/jhonAristizabal.jpeg"
+              alt="">
+          </div>
+          <div class="testimonial mt-4 mb-2">
+            <p class="text-start">La calidad del trabajo de Juan Francisco como diseñador gráfico y maquetador web es excelente. Sus diseños son modernos, atractivos y eficaces en transmitir el mensaje de la empresa. Además, siempre estuvo disponible para resolver cualquier problema y hacer cambios necesarios para satisfacer nuestras necesidades. altamente recomendado</p>            
+          </div>
+          <div class="name">
+            Jhon Jairo Aristizabal
+            <p class="text-dark">Contador Público</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="text-white">Sobre mi</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="quiensoy.html" class="nav-link p-0 text-white">Perfil</a></li>
+              <li class="nav-item mb-2"><a href="quiensoy.html#habilidades" class="nav-link p-0 text-white">Habilidades</a></li>
+              <li class="nav-item mb-2"><a href="quiensoy.html#mifuerte" class="nav-link p-0 text-white">Mi fuerte</a></li>
+              <li class="nav-item mb-2"><a href="quiensoy.html#educacion" class="nav-link p-0 text-white">Educación</a></li>
+              <li class="nav-item mb-2"><a href="quiensoy.html#experiencia" class="nav-link p-0 text-white">Experiencia</a></li>
+              <li class="nav-item mb-2"><a href="quiensoy.html#reconocimientos" class="nav-link p-0 text-white">Reconocimientos</a></li>
             </ul>
           </div>
-        </div>
-      </nav>
 
-        <div class="row">
-            <div class="col-md-6">
-              <div class="centrar">
-                <img class="animate__animated animate__pulse animate__infinite animate__slower" src="images/astronaut.png" width="90%" alt="Diseñador web">
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="text-white">Proyectos</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Multimedia</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Imagen</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Audiovisual</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Inteligencia Artificial</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h3 class="text-white">Galería</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Multimedia</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Trabajos recientes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Clientes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Experiencias</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h3 class="text-white">Contacto</h3>
+              <p class="text-start">Creando experiencias digitales inolvidables. dejame llamarte</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"></label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Tu celular">
+                <button class="btn btn-primary" type="button">Enviar</button>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="text-center centrarV">
-                <h1 class="super">Juan <span style="color: #E0E153; font-size: 8vw;">López</span></h1>
-                <h2>Diseñador Fullstack</h2>
-                <p class="lead">Portafolio de proyectos multimedia</p>
-                <a class="btn btn-outline-success" href="#abajo">
-                  Contactame
-                </a>
-              </div>
-            </div>
-            <!-- ACA MONTO MI VIDEO DE FONDO -->
-            <video src="video/galaxy.mp4" autoplay muted loop></video>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-            <div class="caja2">
-              <h3 class="text-light">Les doy la bienvenida al sitio que presenta los proyectos mas importantes de mi carrera como Diseñador Gráfico en una transición al Desarrollo de Software</h3>
-              
-            </div>
+            </form>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Servicios de Diseño y Desarrollo <span style="color: #E0E153;">Web</span></h1>
-          </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2023 Juan López designer, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-light" href="https://www.facebook.com/juan.f.lopez.d/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://twitter.com/pacgrafica" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.instagram.com/jlopez_fullstack/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.linkedin.com/in/juan-francisco-lopez-designer/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@pacgrafica" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.behance.net/franpac" target="_blank"><i class="fa-brands fa-square-behance"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://github.com/pacgrafica" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
         </div>
-
-        <div class="container h-100 mt-4 mb-5">
-          <div class="row w-100 align-items-center">
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Enseño todo lo relacionado al diseño gráfico y desarrollo web">
-                <img src="images/educacion.svg" height="100rem" alt="educacion">
-                Educación
-              </button>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Construyo productos de comunicación para medios impresos y digitales, generando contenidos de valor al sector empresarial">
-                <img src="images/add.svg" height="100rem" alt="publicidad">
-                Publicidad
-              </button>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Poseo experiencia en los procesos de artefinalización de medios impresos, conocimiento  de componentes e insumos de la industria gráfica">
-                <img src="images/printing.svg" height="100rem" alt="impresion
-                ">
-                Impresión
-              </button>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Planifico procesos creativos que integren metologías agiles de diseño, fortaleciendo el producto o servicio, preparandolo para el mundo digital">
-                <img src="images/diseno.svg" height="100rem" alt="diseño">
-                Diseño
-              </button>
-            </div>
-          </div>
-        </div>
-        <hr class="m-5">
-
-        <div class="container">
-          <div class="row py-4">
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-              <img class="w-100" src="images/trabajo.jpg" height="" alt="enseñando">
-            </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-              <h1 class="text-center">Enseñando Diseño para nuevas<span style="color: #E0E153;"> generaciones</span></h1>
-              <p>Soy capaz de gestionar equipos de trabajo colaborativo implementando metodologias agiles de desarrollo y solución de proyectos</p>
-            </div>
-          </div>
-          <div class="containerS h-100 py-5">
-            <div class="row align-items-center h-100">
-              <div class="containerS rounded">
-                <h1 class="text-center">Sistemas con los que trabajo:</h1>
-                <div class="slider p-5">
-                  <div class="logos">
-                    <i class="fab fa-js fa-4x colorPrincipal"></i>
-                    <i class="fab fa-git fa-4x colorPrincipal"></i>
-                    <i class="fab fa-drupal fa-4x colorPrincipal"></i>
-                    <i class="fab fa-android fa-4x colorPrincipal"></i>
-                    <i class="fab fa-github fa-4x colorPrincipal"></i>
-                  </div>
-                  <div class="logos">
-                    <i class="fab fa-facebook fa-4x colorPrincipal"></i>
-                    <i class="fab fa-apple fa-4x colorPrincipal"></i>
-                    <i class="fab fa-windows fa-4x colorPrincipal"></i>
-                    <i class="fab fa-linux fa-4x colorPrincipal"></i>
-                    <i class="fab fa-youtube fa-4x colorPrincipal"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-          </div>
-          <div class="row">
-            <h1 class="text-center py-4">Trabajos<span style="color: #E0E153;"> recientes</span></h1>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #a92844;">
-                    <h3 class="text-light">Talentic<span style="color: #E0E153;"> - Sistema de información documental de contenidos digitales</span></h3>
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show bg-transparent text-light" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
-                  <div class="accordion-body" style="background-color: #a92844;">
-                    <div class="grid-container">
-                      <div class="grid-item"><p>
-                        <strong>Semillero de investigación.</strong> Este proyecto lo llevamos construyendo desde el año 2020, se trata del desarrollo de un sistema que permita registrar los proyectos finales de etapa lectiva de los programas de formación de contenidos digitales del Centro para la Industria de la Comunicación Gráfica, SENA Regional Distrito Capital</p>
-                        <figcaption class="d-flex justify-content-end">
-                          <p>ver el proyecto &nbsp;</p>
-                          <a href="https://www.talentic.com.co" target="_blank"> talentic.com.co</a>
-                        </figcaption>
-                      </div>
-                      <div class="grid-item">
-                        <img src="images/talentic.jpg" alt="talentic" width="100%">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #a92844;">
-                    <h3 class="text-light">Superintendencia de servicios públicos domiciliarios<span style="color: #E0E153;"> - Diseño de portales web</span></h3>
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body" style="background-color: #a92844;">
-                      <div class="row">
-                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                            <img src="images/pSuperInstitucional.jpg" width="70%" alt="portal superservicios institucional">
-                        </div>
-                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                          <img src="images/pIntranetSuper.jpg" width="70%" alt="portal intranet superservicios">
-                        </div>
-                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                          <img src="images/pSuperservicios.jpg" width="50%" alt="portal superservicios">
-                        </div>
-                        <div class="col-6 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">                          
-                          <p>
-                            <strong>Proceso de prototipado portales web.</strong> Este proyecto fue espectacular, consistio en trabajar en el proceso de prototipado en fases de diseño de creación de 3 sistemas de información; Portal institucional, Super servicios, Portal intranet, construi toda las fases de diseño desde el scketch, wireframe, mockup, prototipo una enorme responsabilidad que me permitio entender la integración de los componentes backend con los frontend</p>
-                            <figcaption class="d-flex justify-content-end">
-                              <p>ver los proyectos &nbsp;</p>
-                            </figcaption>                            
-                            <a href="https://sui.superservicios.gov.co" target="_blank"> sui.superservicios.gov.co</a>
-                            <a href="https://www.superservicios.gov.co" target="_blank"> superservicios.gov.co</a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #a92844;"> 
-                    <h3 class="text-light">Union Country Cambios<span style="color: #E0E153;"> - Diseño de sitio web casa de cambios</span></h3>
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body" style="background-color: #a92844;">
-                    <div class="row d-flex align-items-center">
-                      <div class="col-6"><p>
-                        <strong>Sitio web de Casa de cambios en Unicentro Bogotá.</strong> Este proyecto es un sistema de información que actualiza los precios de las monedas en tiemporeal atraves del frontend, usamos herramientas de maquetación y diseño adaptable</p>
-                        <figcaption class="d-flex justify-content-end">
-                          <p>ver el proyecto &nbsp;</p>
-                          <a href="https://www.ucountrycambios.co" target="_blank"> ucountrycambios.co</a>
-                        </figcaption>
-                      </div>
-                      <div class="col-6">
-                        <img src="images/pUnionCountry.jpg" alt="Union country cambios" width="100%">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFourth">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth" style="background-color: #a92844;">
-                    <h3 class="text-light">Erator<span style="color: #E0E153;"> - Diseño de sitio web de Motores Usados</span></h3>
-                  </button>
-                </h2>
-                <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingFourth" data-bs-parent="#accordionExample">
-                  <div class="accordion-body" style="background-color: #a92844;">
-                    <div class="grid-container">
-                      <div class="grid-item"><p>
-                        <strong>Sitio Web de Motores de segunda.</strong> Este sitio posee un sistema que permite registrar y almacenar los datos de los posibles clientes, para realizar un sistema embudo que permita el engagement con el cliente</p>
-                        <figcaption class="d-flex justify-content-end">
-                          <p>ver el proyecto &nbsp;</p>
-                          <a href="https://www.erator.co/" target="_blank"> erator.co</a>
-                        </figcaption>
-                      </div>
-                      <div class="grid-item">
-                        <img src="images/pErator.jpg" alt="Venta de motores usados" width="100%">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row" style="padding: 2rem;">
-          <div class="col-md-3" style="display: flex; justify-content: center;"> 
-            <img src="images/educacion.svg" alt="Educación" height="100rem">
-          </div>
-          <div class="col-md-9">
-            <p class="text-start">Para una optima educación trabajamos con los mejores, cada uno de ellos especializados para asesorar y enseñar en areas como; Marketing Digital, Modelos de Negocio, Diseño Gráfico, Diseño Web y App, Producción Multimedia, Bases de Datos, 3D, Animación, Edición, Sistemas de Información, Inteligencia Emocional, Inteligencia Artificial.</p>
-          </div>
-        </div>
-
-        <div class="row p-5">
-          <div class="col-md-3 p-4" style="display: flex; justify-content: center;"> 
-            <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Construyo redes de trabajo colaborativo a travez de sistemas remotos de control de versiones">
-              <img src="images/equipoScrum.png" alt="trabajo en equipo" width="100%">
-              Trabajo en equipo
-            </button>
-            
-          </div>
-          
-          <div class="col-md-3 p-4" style="display: flex; justify-content: center;">
-            <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="5 años colaborando en diversos proyectos, desarrollos y aplicaciónes trabajando de la mano con el sector privado y público">
-              <img src="images/experiencia.png" alt="experiencia" width="100%">
-              Experiencia
-            </button>
-            
-          </div>
-
-          <div class="col-md-3 p-4" style="display: flex; justify-content: center;"> 
-            <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Amateur maquetador Frontend con conocimientos en CSS, SASS, JS, React, Laravel, operación de bases de datos, modelos de entidad y relación, Apache, Mysql, PHP">
-              <img src="images/fullstack.png" alt="fullstack" width="100%">
-              Fullstack
-            </button>
-            
-          </div>
-
-          <div class="col-md-3 p-4" style="display: flex; justify-content: center;">
-            <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Puede validar los testimonios">
-              <img src="images/garantia.png" alt="garantia" width="100%">
-              Garantia
-            </button> 
-            
-          </div>
-          <div class="col-3"><h4 class="text-light text-center">Trabajo en Equipo</h4></div>
-          <div class="col-3"><h4 class="text-light text-center">Experiencia</h4></div>
-          <div class="col-3"><h4 class="text-light text-center">Fullstack</h4></div>
-          <div class="col-3"><h4 class="text-light text-center">Garantia</h4></div>
-        </div>
-
-        <!--ACA COMIENZA CARROUSEL 2-->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="images/sliderUno.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="images/sliderUno.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="images/sliderUno.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-        <!-- <div class="row">
-          <div class="col-md-6" style="background-color:rgb(128, 128, 128);">
-            <div class="row">
-              <div class="col-12" style="background-color: chartreuse; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: pink; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: chartreuse; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6" style="background-color:rgb(185, 185, 185);">
-            <div class="row">
-              <div class="col-12" style="background-color: purple; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: yellow; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-md-6" style="background-color: green;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-6" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12" style="background-color:pink; height:100px">
-            <h1>SOY ESPACIO VACIO</h1>
-          </div>
-        </div>
-
-        <div class="row" id="abajo">
-          <div class="col-md-2" style="background-color: orange ;">soy caja</div>
-          <div class="col-md-5" style="background-color: chartreuse ;">soy caja</div>
-          <div class="col-md-5" style="background-color: orange ;">soy caja</div>
-        </div>
-
-        <div class="row" style="padding: 2rem;">
-          <div class="col-md-11">
-
-          </div>
-          <div class="col-md-1">
-            <a class="btn btn-warning" href="#arriba">Arriba</a>
-          </div>
-        </div> -->
-
-
+      </footer>
     </div>
-    <!-- codigo intro de logo
+
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      var silder = $(".owl-carousel");
+      silder.owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: false,
+        items: 1,
+        stagePadding: 20,
+        center: true,
+        nav: false,
+        margin: 50,
+        dots: true,
+        loop: true,
+        responsive: {
+          0: { items: 1 },
+          480: { items: 2 },
+          575: { items: 2 },
+          768: { items: 2 },
+          991: { items: 3 },
+          1200: { items: 4 }
+        }
+      });
+    });
+  </script>
+  <!-- codigo intro de logo
       <script type="text/javascript">
       $(window).on('load', function () {
           $('#myModal').modal('show');
       });
     </script> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script>
-      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-    </script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+</body>
+
 </html>

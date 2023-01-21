@@ -43,10 +43,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="quiensoy.html">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Habilidades</a></li>
-                  <li><a class="dropdown-item" href="#">Mi fuerte</a></li>
-                  <li><a class="dropdown-item" href="#">Educación</a></li>
-                  <li><a class="dropdown-item" href="#">Experiencia</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#habilidades">Habilidades</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#mifuerte">Mi fuerte</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#educacion">Educación</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#experiencia">Experiencia</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -55,9 +55,9 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item " href="proyectos.html">Multimedia</a></li>
-                  <li><a class="dropdown-item " href="#">Imagen</a></li>
-                  <li><a class="dropdown-item " href="#">Audio</a></li>
-                  <li><a class="dropdown-item " href="#">Video</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#imagen">Imagen</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#audio">Audio</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#video">Video</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -85,22 +85,22 @@
             <h1 class="display-4 fw-bold lh-1">Contacto</h1>
             <p class="lead">Estoy muy feliz de recibir tus comentarios y/o observaciones, recuerda que me encuentras en el ciberespacio como jlopez Fullstack Designer</p>
             <div class="d-grid gap-2 d-md-flex mb-4 mb-lg-3">
-                <form class="row">
+                <form class="row" action="enviar_formulario.php" method="post">
                     <div class="mb-3 col-6">
-                      <label for="exampleInputEmail1" class="form-label text-light">Nombre</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <label for="nombre" class="form-label text-light">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
                       <div id="emailHelp" class="form-text text-light">Coloca tu nombre completo</div>
                     </div>
                     <div class="mb-3 col-6">
-                      <label for="exampleInputPassword1" class="form-label text-light">Celular</label>
-                      <input type="number" class="form-control" id="exampleInputPassword1">
+                      <label for="celular" class="form-label text-light">Celular</label>
+                      <input type="number" class="form-control" id="celular" name="celular">
                     </div>
                     <div class="col-6">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label text-light" for="exampleCheck1">Autorizo contactarme</label>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="btn btn-primary text-dark" style="width: 5rem;">Enviar</button>
+                        <input type="submit" class="btn btn-primary text-dark">Enviar</input>
                     </div>
                     
                   </form>
@@ -232,109 +232,6 @@
             <p class="text-start">Para una optima educación trabajamos con los mejores, cada uno de ellos especializados para asesorar y enseñar en areas como; Marketing Digital, Modelos de Negocio, Diseño Gráfico, Diseño Web y App, Producción Multimedia, Bases de Datos, 3D, Animación, Edición, Sistemas de Información, Inteligencia Emocional, Inteligencia Artificial.</p>
           </div>
         </div>
-        <!-- <div class="row">
-          <div class="col-md-12" style="background-color:pink; height:100px">
-            <h1>SOY ESPACIO VACIO</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6" style="background-color:rgb(128, 128, 128);">
-            <div class="row">
-              <div class="col-12" style="background-color: chartreuse; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: pink; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: chartreuse; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6" style="background-color:rgb(185, 185, 185);">
-            <div class="row">
-              <div class="col-12" style="background-color: purple; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: yellow; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-md-6" style="background-color: green;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-6" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12" style="background-color:pink; height:100px">
-            <h1>SOY ESPACIO VACIO</h1>
-          </div>
-        </div>
-
-        <div class="row" id="abajo">
-          <div class="col-md-2" style="background-color: orange ;">soy caja</div>
-          <div class="col-md-5" style="background-color: chartreuse ;">soy caja</div>
-          <div class="col-md-5" style="background-color: orange ;">soy caja</div>
-        </div>
-
-        <div class="row" style="padding: 2rem;">
-          <div class="col-md-11">
-
-          </div>
-          <div class="col-md-1">
-            <a class="btn btn-warning" href="#arriba">Arriba</a>
-          </div>
-        </div> -->
 
 
     </div>

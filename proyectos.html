@@ -23,7 +23,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
+
   </head>
   <body>
     <div class="container">
@@ -43,10 +44,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="quiensoy.html">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Habilidades</a></li>
-                  <li><a class="dropdown-item" href="#">Mi fuerte</a></li>
-                  <li><a class="dropdown-item" href="#">Educación</a></li>
-                  <li><a class="dropdown-item" href="#">Experiencia</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#habilidades">Habilidades</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#mifuerte">Mi fuerte</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#educacion">Educación</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#experiencia">Experiencia</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -55,9 +56,9 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item " href="proyectos.html">Multimedia</a></li>
-                  <li><a class="dropdown-item " href="#">Imagen</a></li>
-                  <li><a class="dropdown-item " href="#">Audio</a></li>
-                  <li><a class="dropdown-item " href="#">Video</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#imagen">Imagen</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#audio">Audio</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#video">Video</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -109,7 +110,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container" id="multimedia">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item p-1 rounded-2"><a href="#">
@@ -121,156 +122,234 @@
         </nav>
       </div>
 
-      <div class="container-fluid" id="multimedia">
-        <div class="portafolio-menu overflow-auto">
-          <ul class="btn-group">
-            <li class="btn btn-secondary text-dark" data-filter="*">Todos</li>
-            <li class="btn btn-secondary text-dark" data-filter=".multimedia">Multimedia</li>
-            <li class="btn btn-secondary text-dark" data-filter=".imagen">Imagen</li>
-            <li class="btn btn-secondary text-dark" data-filter=".audio">Audio</li>
-            <li class="btn btn-secondary text-dark" data-filter=".video">Video</li>
-          </ul>
+      
+
+      <div class="container-fluid">
+        <div class="row" id="imagen">
+          <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Multimedia <span style="color: #E0E153;">Imagen</span></h1>
+          </div>
         </div>
-    
-        <div class="portafolio-item d-flex justify-content-center">
-    
-          <div class="item multimedia">
-            <img src="images/aplicaciones_moviles.jpg" alt="" class="img">
+        <div class="row p-5">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/3D3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/3D3.jpg" class="img-fluid">
+            </a>
           </div>
-    
-          <div class="item multimedia">
-            <img src="images/btl.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/corporativo1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/corporativo1.jpg" class="img-fluid">
+            </a>
           </div>
-    
-          <div class="item multimedia">
-            <img src="images/libro.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pop3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pop3.jpg" class="img-fluid">
+            </a>
           </div>
-    
-          <div class="item multimedia">
-            <img src="images/pagina.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/3D2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/3D2.jpg" class="img-fluid">
+            </a>
           </div>
-    
-          <div class="item imagen">
-            <img src="images/realidad_aumentada.jpg" alt="" class="img">
+        </div>
+        <div class="row px-5">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/branding7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/branding7.jpg" class="img-fluid">
+            </a>
           </div>
-    
-          <div class="item imagen">
-            <img src="images/realidad_virtual.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/ilustracion1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/ilustracion1.jpg" class="img-fluid">
+            </a>
           </div>
-    
-          <div class="item imagen">
-            <img src="images/redessociales.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/empaque3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/empaque3.jpg" class="img-fluid">
+            </a>
           </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/empaque2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/empaque2.jpg" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="row p-5">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/3D4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/3D4.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pop4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pop4.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/ilustracion2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/ilustracion2.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/branding9.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/branding9.jpg" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="row px-5">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/3D1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/3D1.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pop2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pop2.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/branding10.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/branding10.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/talentic.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/talentic.jpg" class="img-fluid">
+            </a>
+          </div>
+        </div>
 
-          <div class="item imagen">
-            <img src="images/course-4.jpg" alt="" class="img">
+        <div class="row p-5">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pop1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pop1.jpg" class="img-fluid">
+            </a>
           </div>
-
-          <div class="item audio">
-            <img src="images/web.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/branding8.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/branding8.jpg" class="img-fluid">
+            </a>
           </div>
-
-          <div class="item audio">
-            <img src="images/course-8.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/btl.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/btl.jpg" class="img-fluid">
+            </a>
           </div>
-
-          <div class="item video">
-            <img src="images/course-5.jpg" alt="" class="img">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/branding1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/branding1.jpg" class="img-fluid">
+            </a>
           </div>
-    
+        </div>
+        <div class="row px-5">
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pUnionCountry.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pUnionCountry.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/branding2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/branding2.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pagina.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pagina.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-3" style="height: 200px; overflow: hidden;">
+            <a href="images/pop5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <img src="images/pop5.jpg" class="img-fluid">
+            </a>
+          </div>
         </div>
       </div>
 
-        <div class="row">
-          <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Servicios de Diseño y Desarrollo <span style="color: #E0E153;">Web</span></h1>
+      <hr class="divider m-5">
+      <div class="container-fluid">
+          <div class="row" id="audio">
+            <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Multimedia <span style="color: #E0E153;">Audio</span></h1>
+            </div>
           </div>
-        </div>
+          <iframe src="audio/reproductor-musica-master/index.html" width="100%" height="650rem">
+          mostrando
+          </iframe>
+      </div>
 
-        <div class="container h-100 mt-4 mb-5">
-          <div class="row w-100 align-items-center">
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Enseño todo lo relacionado a la industria audiovisual">
-                <img src="images/educacion.svg" height="100rem" alt="educacion">
-                Educación
-              </button>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Desarrollo cualquier concepto o campaña publicitaria para cualquiern ">
-                <img src="images/add.svg" height="100rem" alt="publicidad">
-                Publicidad
-              </button>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-                <img src="images/printing.svg" height="100rem" alt="impresion
-                ">
-                Impresión
-              </button>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-grid gap-2 mx-auto">
-              <button type="button" class="btn btn-outline-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-                <img src="images/diseno.svg" height="100rem" alt="diseño">
-                Diseño
-              </button>
-            </div>
-          </div>
-        </div>
         <hr class="m-5">
 
-        <div class="container">
-          <div class="row">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #a92844;">
-                    <h1 class="display-4">Disruptivo</h1>
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show bg-transparent text-light" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
-                  <div class="accordion-body" style="background-color: #a92844;">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h1 class="display-4">Analitico</h1>
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFourth">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-                    Accordion Item #4
-                  </button>
-                </h2>
-                <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingFourth" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
+        <div class="container-fluid">
+          <div class="row" id="video">
+            <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Multimedia <span style="color: #E0E153;">Video</span></h1>
+            </div>
+          </div>
+          <div class="row p-5">
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/DSxJMK0sKx8" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/introAltavista.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/q4EvblaS4vY" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoSemillero.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/FL2ILDs5yRM" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoFilminutoCongo.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/lhlNVW3rPWg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoInstitucional.webp" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="row px-5">
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/oQNl9QI4r34" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoListonesGuillotinas.JPG" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/6Isbqq60efU" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoTutorial.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/kcCXsdIjdsU" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/VideoSaber.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/iohEouQ2Yqg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoFelipe.webp" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="row p-5">
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/zLO1ktfma2o" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoD3Mobile.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/L83I75K8Nts" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoReel1.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/VZR5850PMAg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoAltavista.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-3" style="height: 200px; overflow: hidden;">
+              <a href="https://youtu.be/vClqkOUyY-4" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="images/videoD3mobiles.webp" class="img-fluid">
+              </a>
             </div>
           </div>
         </div>
+
 
         <div class="row" style="padding: 2rem;">
           <div class="col-md-3" style="display: flex; justify-content: center;"> 
@@ -280,133 +359,133 @@
             <p class="text-start">Para una optima educación trabajamos con los mejores, cada uno de ellos especializados para asesorar y enseñar en areas como; Marketing Digital, Modelos de Negocio, Diseño Gráfico, Diseño Web y App, Producción Multimedia, Bases de Datos, 3D, Animación, Edición, Sistemas de Información, Inteligencia Emocional, Inteligencia Artificial.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12" style="background-color:pink; height:100px">
-            <h1>SOY ESPACIO VACIO</h1>
-          </div>
-        </div>
 
-        <!-- <div class="row">
-          <div class="col-md-6" style="background-color:rgb(128, 128, 128);">
+        <div class="container wow animate__animated animate__fadeInUp">
+          <footer class="py-5">
             <div class="row">
-              <div class="col-12" style="background-color: chartreuse; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
+              <div class="col-6 col-md-2 mb-3">
+                <h3 class="text-white">Sobre mi</h3>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="quiensoy.html" class="nav-link p-0 text-white">Perfil</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#habilidades" class="nav-link p-0 text-white">Habilidades</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#mifuerte" class="nav-link p-0 text-white">Mi fuerte</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#educacion" class="nav-link p-0 text-white">Educación</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#experiencia" class="nav-link p-0 text-white">Experiencia</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#reconocimientos" class="nav-link p-0 text-white">Reconocimientos</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-6 col-md-2 mb-3">
+                <h3 class="text-white">Proyectos</h3>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Multimedia</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Imagen</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Audiovisual</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Inteligencia Artificial</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-6 col-md-2 mb-3">
+                <h3 class="text-white">Galería</h3>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Multimedia</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Trabajos recientes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Clientes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Experiencias</a></li>
+    
+                </ul>
+              </div>
+    
+              <div class="col-md-5 offset-md-1 mb-3">
+                <form method="post" action="send_form.php">
+                  <h3 class="text-white">Contacto</h3>
+                  <p class="text-start">Creando experiencias digitales inolvidables. dejame llamarte</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden"></label>
+                    <input id="newsletter1" name="phone" type="text" class="form-control" placeholder="Tu celular">
+                    <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+                  </div>
+                </form>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12" style="background-color: pink; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
+    
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2023 Juan López designer, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-light" href="https://www.facebook.com/juan.f.lopez.d/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://twitter.com/pacgrafica" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.instagram.com/jlopez_fullstack/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.linkedin.com/in/juan-francisco-lopez-designer/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@pacgrafica" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.behance.net/franpac" target="_blank"><i class="fa-brands fa-square-behance"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://github.com/pacgrafica" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+              </ul>
             </div>
-            <div class="row">
-              <div class="col-12" style="background-color: chartreuse; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6" style="background-color:rgb(185, 185, 185);">
-            <div class="row">
-              <div class="col-12" style="background-color: purple; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12" style="background-color: yellow; height: 20%;">
-                <h1>Soy columna dentro de columna</h1>
-              </div>
-            </div>
-          </div>
+          </footer>
         </div>
-        
-        <div class="row">
-          <div class="col-md-6" style="background-color: green;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-6" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3" style="background-color: chartreuse;">
-            <h1>titulo</h1>
-          </div>
-          <div class="col-md-3" style="background-color: red;">
-            <h1>Titulo 2</h1>
-          </div>
-          <div class="col-md-6" style="background-color: blue;">
-            <h1>titulo</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12" style="background-color:pink; height:100px">
-            <h1>SOY ESPACIO VACIO</h1>
-          </div>
-        </div>
-
-        <div class="row" id="abajo">
-          <div class="col-md-2" style="background-color: orange ;">soy caja</div>
-          <div class="col-md-5" style="background-color: chartreuse ;">soy caja</div>
-          <div class="col-md-5" style="background-color: orange ;">soy caja</div>
-        </div>
-
-        <div class="row" style="padding: 2rem;">
-          <div class="col-md-11">
-
-          </div>
-          <div class="col-md-1">
-            <a class="btn btn-warning" href="#arriba">Arriba</a>
-          </div>
-        </div> -->
 
 
     </div>
 
     <script src="js/jquery-3.6.1.min.js"></script>  
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script>
-        $(".portafolio-item").isotope({
-          itemSelector: ".item",
-          layoutMode: "fitRows"
-        });
-      
-        $(".portafolio-menu ul li").click(function(){
-          $(".portafolio-menu ul li").removeClass("active");
-          $(this).addClass("active");
-      
-          var selector = $(this).attr("data-filter");
-          $(".portafolio-item").isotope({
-            filter: selector
-          })
-          return false;
-        })
-    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script id="bs5-lightbox"></script>
+	<script>
+		var lightboxScript = document.getElementById('bs5-lightbox');
+		var src = 'https://cdn.jsdelivr.net/npm/bs5-lightbox@latest/dist/index.bundle.min.js'
+		var searchParams = new URLSearchParams(window.location.search);
+		if (searchParams.has('local')) {
+			src = "../js/index.js";
+		} else if (searchParams.has('github')) {
+			src = 'https://cdn.jsdelivr.net/gh/trvswgnr/bs5-lightbox@main/dist/index.bundle.min.js';
+		}
+		lightboxScript.src = src;
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.2.0/markdown-it.min.js" integrity="sha512-cTQeM/op796Fp1ZUxfech8gSMLT/HvrXMkRGdGZGQnbwuq/obG0UtcL04eByVa99qJik7WlnlQOr5/Fw5B36aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+	<script>
+		"use strict";
+			var md = window.markdownit();
+			var codeBlocks = document.querySelectorAll('[data-code]');
+			codeBlocks.forEach(function (el) {
+				var target = document.getElementById(el.dataset.code);
+				if (target) {
+					var html = el.innerHTML.replace(/^\s*\n/gm, '').split('\n');
+					var tabsToTrim = 0;
+					html = html.map(function (v, i) {
+						if (i === 0) {
+							var matches = v.match(/^[\t\s]+/);
+							tabsToTrim = matches && matches[0].length ? matches[0].split('\t').length - 1 : 0;
+						}
+						var regex = new RegExp('^[\\t\\s]{0,' + tabsToTrim + '}');
+						return v.replace(regex, '');
+					}).join('\n').trim();
+					target.innerHTML = '```html\n' + html + '\n```';
+				}
+			});
+			var markdownEls = document.querySelectorAll('.markdown');
+			markdownEls.forEach(function (el) {
+				el.innerHTML = md.render(el.innerHTML);
+			});
+			hljs.highlightAll();
+
+			document.querySelectorAll('.language-js').forEach(function(el) {
+				el.innerHTML = md.utils.unescapeAll(el.innerHTML);
+			});
+
+			var mainNavItems = document.querySelectorAll('#main-nav .list-group-item');
+			var mainNavItemsAnchor = document.querySelectorAll('#main-nav .list-group-item a');
+			mainNavItemsAnchor.forEach(function(el) {
+				el.addEventListener('click', function(e) {
+					mainNavItems.forEach(function(v) {
+						v.classList.remove('active');
+					});
+					el.closest('li').classList.add('active');
+				});
+			});
+	</script>
     <script>
       const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
       const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))

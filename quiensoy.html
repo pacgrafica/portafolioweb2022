@@ -28,8 +28,8 @@
     
   </head>
   <body>
-    <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top fondoColor" id="arriba">
+    <div class="container" id="menuPrincipal">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top fondoColor">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="images/jlopezLogo.png" alt="Juan Francisco López Diseñador Fullstack">
@@ -45,10 +45,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="quiensoy.html">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Habilidades</a></li>
-                  <li><a class="dropdown-item" href="#">Mi fuerte</a></li>
-                  <li><a class="dropdown-item" href="#">Educación</a></li>
-                  <li><a class="dropdown-item" href="#">Experiencia</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#habilidades">Habilidades</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#mifuerte">Mi fuerte</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#educacion">Educación</a></li>
+                  <li><a class="dropdown-item" href="quiensoy.html#experiencia">Experiencia</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -57,9 +57,9 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item " href="proyectos.html">Multimedia</a></li>
-                  <li><a class="dropdown-item " href="#">Imagen</a></li>
-                  <li><a class="dropdown-item " href="#">Audio</a></li>
-                  <li><a class="dropdown-item " href="#">Video</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#imagen">Imagen</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#audio">Audio</a></li>
+                  <li><a class="dropdown-item " href="proyectos.html#video">Video</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -90,8 +90,8 @@
             <h1 class="display-4 fw-bold lh-1">Quien soy</h1>
             <p class="lead"><strong>Juan Francisco López - </strong>Diseñador fullstack, experto en diseño para la creación global de contenidos digitales, con los últimos aprendizajes tecnológicos, maduro y responsable en el desarrollo de proyectos web, apps, juegos, desarrollo estructural de proyectos Git</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-4 mb-lg-3">
-              <a type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold text-dark" href="#multimedia">Ver <img src="images/box-arrow-down.svg" alt=""></a>
-              <a class="btn btn-outline-success" href="#abajo">
+              <a type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold text-dark" href="#habilidades">Ver <img src="images/box-arrow-down.svg" alt=""></a>
+              <a class="btn btn-outline-success" href="https://api.whatsapp.com/send?phone=573112503262&amp;text=Hola!%20tengo%20una%20pregunta%20">
                 Contactame
               </a>
               <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4 ">Contactame</button> -->
@@ -103,9 +103,13 @@
       <div class="container">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item p-1 rounded-2"><a href="#">Quien soy</a></li>
-            <li class="breadcrumb-item p-1 rounded-2"><a href="#">Perfil</a></li>
-            <li class="breadcrumb-item active2 p-1 rounded-2" aria-current="page" style="font-family: 'Pacifico', cursive; font-size: 20px;">Habilidades</li>
+            <li class="breadcrumb-item p-1 rounded-2"><a href="index.html">
+              <img src="images/house-solid.svg" width="30px" alt="Portafolio web">
+            </a></li>
+            <li class="breadcrumb-item p-1 rounded-2"><a href="quiensoy.html">Quien soy</a></li>
+            <li class="breadcrumb-item p-1 rounded-2"><a href="quiensoy.html">Perfil</a></li>
+            <li class="breadcrumb-item active2 p-1 rounded-2" aria-current="page" style="font-family: 'Pacifico', cursive; font-size: 20px;">Habilidades
+              </li>
           </ol>
         </nav>
       </div>
@@ -114,7 +118,7 @@
         <div class="row" id="habilidades">
           
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex">
-            <div class="row justify-content-center">
+            <div class="row p-5 justify-content-center" id="habilidades">
               <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Soft<span style="color: #E0E153;">Skills</span></h1>
               </div>
               
@@ -170,7 +174,7 @@
           </div>
 
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <div class="row d-flex justify-content-center">
+            <div class="row p-5 d-flex justify-content-center">
               <div class="col-md-12" style="padding: 2rem;"><h1 class="text-center">Hard<span style="color: #E0E153;">Skills</span></h1>
               </div>
               <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2">
@@ -733,7 +737,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm bg-transparent">
-                <img src="images/juanRulfoConcurso.JPG" alt="">
+                <img src="images/juanRulfoConcurso.JPG" alt="" width="100%">
     
                 <div class="card-body">
                   <p class="card-text">Como Docente de Tecnología e informatica, El Colegio Juan Rulfo participo en el concurso D3MOBILE de España quedando en Segundo
@@ -773,7 +777,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm bg-transparent">
-                <img src="images/d3mobile.jpg" alt="">
+                <img src="images/d3mobile.jpg" alt="" width="100%">
     
                 <div class="card-body">
                   <p class="card-text text-start">Como Docente de Arte y Diseño Gráfico, el Instituto Pedagogico La Real Sociedad Gano por la implementación y tecnologías de modelado 3D; 2 - ARTISTAS 3D CAMPEÓN DEL MUNDO D3MOBILE ART - FUNDACIÓN VODAFONE ESPAÑA - ARTISTAS 3D El equipo 3D OF TOMORROW
@@ -793,13 +797,77 @@
         </div>
       </div>
 
-        <div class="row" style="padding: 2rem;">
+        <div class="row">
           <div class="col-md-11">
 
           </div>
           <div class="col-md-1">
-            <a class="btn btn-warning" href="#arriba">Arriba</a>
+            <a class="btn btn-primary btn-lg px-4 me-md-2 fw-bold text-dark" href="#menuPrincipal">Arriba</a>
           </div>
+        </div>
+
+        <div class="container">
+          <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <h3 class="text-white">Sobre mi</h3>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="quiensoy.html" class="nav-link p-0 text-white">Perfil</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#habilidades" class="nav-link p-0 text-white">Habilidades</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#mifuerte" class="nav-link p-0 text-white">Mi fuerte</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#educacion" class="nav-link p-0 text-white">Educación</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#experiencia" class="nav-link p-0 text-white">Experiencia</a></li>
+                  <li class="nav-item mb-2"><a href="quiensoy.html#reconocimientos" class="nav-link p-0 text-white">Reconocimientos</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-6 col-md-2 mb-3">
+                <h3 class="text-white">Proyectos</h3>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Multimedia</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Imagen</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Audiovisual</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Inteligencia Artificial</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-6 col-md-2 mb-3">
+                <h3 class="text-white">Galería</h3>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Multimedia</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Trabajos recientes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Clientes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Experiencias</a></li>
+    
+                </ul>
+              </div>
+    
+              <div class="col-md-5 offset-md-1 mb-3">
+                <form method="post" action="send_form.php">
+                  <h3 class="text-white">Contacto</h3>
+                  <p class="text-start">Creando experiencias digitales inolvidables. dejame llamarte</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden"></label>
+                    <input id="newsletter1" name="phone" type="text" class="form-control" placeholder="Tu celular">
+                    <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+    
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2023 Juan López designer, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-light" href="https://www.facebook.com/juan.f.lopez.d/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://twitter.com/pacgrafica" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.instagram.com/jlopez_fullstack/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.linkedin.com/in/juan-francisco-lopez-designer/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@pacgrafica" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://www.behance.net/franpac" target="_blank"><i class="fa-brands fa-square-behance"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="https://github.com/pacgrafica" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+              </ul>
+            </div>
+          </footer>
         </div>
 
 

@@ -142,13 +142,13 @@ p {
 }
 
 /*estas son las clases para alteral modal de carga de index.html*/
-.modal-content {
+/* .modal-content {
   display: none;
 }
 
 .modal-content:visited {
   display: none;
-}
+} */
 
 /* estas son las propiedades del video que va aestar detras de la imagen y el texto del header */
 video {
@@ -291,6 +291,12 @@ li.active {
 @media screen and (min-width: 100px) and (max-width: 800px) {
   .fondoColor {
     background-color: #220c21;
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  .super {
+    font-size: 20vw !important;
   }
 }
 
@@ -514,5 +520,12 @@ li.active {
     bottom: 0px;
     left: 43px;
   }
+
+  .animatext1:hover {
+    -webkit-animation: swing;
+            animation: swing; /* referring directly to the animation's @keyframe declaration */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s; /* don't forget to set a duration! */
+}
 
   

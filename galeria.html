@@ -27,7 +27,7 @@
   </head>
   <body>
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top fondoColor" id="arriba">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top fondoColor abajo" id="arriba">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="images/jlopezLogo.png" alt="Juan Francisco López Diseñador Fullstack">
@@ -255,6 +255,13 @@
 
     </div>
 
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("abajo" ,window.scrollY>10);
+      } )
+  
+    </script>
     <script src="js/jquery-3.6.1.min.js"></script>  
     <script src="js/isotope.pkgd.min.js"></script>
     <script>

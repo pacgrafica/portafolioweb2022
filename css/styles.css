@@ -550,4 +550,14 @@ li.active {
     background-color: lightyellow;
   }
 
+  nav {
+    transition: 0.7s;
+  }
+
+  nav.abajo {
+    background: rgb(34,12,33);
+    background: linear-gradient(180deg, rgba(34,12,33,1) 0%, rgba(34,12,33,1) 54%, rgba(169,40,68,0) 100%);
+    padding: 10px 20px;
+  }
+
   
